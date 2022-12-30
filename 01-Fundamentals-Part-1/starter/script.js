@@ -117,7 +117,7 @@ const isFullAge = ageSarah >= 21;
 console.log(now - 1991 > now - 2018);
 */
 
-
+/*
 const now = 2037;
 const ageJonas = now - 1991;
 const ageSarah = now - 2018;
@@ -128,3 +128,23 @@ let x, y;
 
 x = y = 25 - 10 - 5;
 console.log(x - y);
+
+const averageAge = (ageJonas + ageSarah) / 2;
+console.log(ageJonas, ageSarah, averageAge);
+*/
+
+/*
+const firstName = "Jonas";
+const job = "Prgorammer";
+const birthyear = "1992";
+const year = "2038";
+
+const jonasNew = `I'm ${firstName},  
+${year - birthyear}, 
+year old
+${job} !`
+
+console.log(jonasNew);
+
+console.log(`Just a regular string..`);
+*/
