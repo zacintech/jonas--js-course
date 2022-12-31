@@ -148,3 +148,131 @@ console.log(jonasNew);
 
 console.log(`Just a regular string..`);
 */
+
+
+/*
+const age = 15;
+//const isOldEnough = age >= 18;
+
+if (age >= 18) {
+
+    console.log(`Eligible to drive 🚘`);
+} else {
+    const yearsLeft = 18 - age;  
+    console.log(`Sarah does not meet the minimum age ${yearsLeft} years left to qualify to drive :)`);
+}
+*/
+
+/*
+const birthYear = 1991;
+let century;
+
+if (birthYear <= 2000 && birthYear >= 1900) {
+    century = 20
+} else {
+    century = 21
+}
+console.log(century);
+*/
+
+//type conversion
+/*
+const inputYear = "1991";
+console.log(Number(inputYear));
+
+
+console.log(Number("Jonas"));
+console.log(typeof Nan);
+console.log(String(23), 23);
+
+//type coercion
+
+console.log(
+
+
+);
+*/
+/*
+const money = 100;
+if (money) {
+
+    console.log(`Dont spend it all`);   
+} else {
+    console.log(`You have to get a job`);
+}
+
+
+let height = 0;
+
+if (height) {
+    console.log(`Yay! Height is Defined`);   
+} else {
+    console.log(`Yay! Height is UnDefined`);
+}
+*/
+/*
+const age = 16;
+if (age === 18) {
+    console.log(`Congratulations in becoming an adult`);
+} else {
+    console.log(`You're a minor`);
+}
+//*/
+
+
+/*
+const favourite = Number (prompt(`Whats your favourite number`));
+//console.log(favourite);
+//console.log(typeof favourite);
+
+
+if (favourite === 23) {
+    console.log(`Great 23 is an amazing number`);
+} else if (favourite === 7) {
+    console.log(` 7 is also a cool number`);
+}else if (favourite === 9) {
+    console.log(` 9 is also a cool number`);
+} else {
+    console.log(`Number is not 23 or 7 or 9`);
+}
+
+if (favourite !==23) {
+    console.log(`Why not 23`);
+}
+*/
+
+
+/*
+const numNeighbours = prompt('how many neighbour countries does your country have');
+
+if (numNeighbours === 1) {
+    console.log('Only 1 border!');
+} else if (numNeighbours > 1) {
+    console.log( 'More than 1 border');   
+} else {
+    
+    console.log(`No Border`);
+}
+*/
+
+const hasDriversLicense = true;
+const hasGoodVision = true;
+const isTired = false;
+
+//console.log(hasDriversLicense || hasGoodVision);
+
+//if (hasDriversLicense && hasGoodVision) {
+//    console.log(`Sarah qualifies to drive`);
+//} else {
+//    console.log(`Sarah needs to wait for another 2 years`);
+//}
+
+//console.log(hasDriversLicense && hasGoodVision && isTired);
+
+//if (hasDriversLicense && hasGoodVision && !isTired)  {
+//    console.log(`Sarah qualifies to drive`);
+//} else {
+//    console.log(`Someone else should drive`);
+//}
+
+
