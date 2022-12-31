@@ -255,9 +255,9 @@ if (numNeighbours === 1) {
 }
 */
 
-const hasDriversLicense = true;
-const hasGoodVision = true;
-const isTired = false;
+//const hasDriversLicense = true;
+//const hasGoodVision = true;
+//const isTired = false;
 
 //console.log(hasDriversLicense || hasGoodVision);
 
@@ -276,3 +276,47 @@ const isTired = false;
 //}
 
 
+//let day = "mondays";
+
+//if (day === "monday") {
+//    console.log(`Plan course structure`);
+//} else if (day === "tuesday") {
+//    console.log(`Prepare Theory Videos`);
+//} else if (day === "wednesday" || day === "thursday") {
+//    console.log(`write code examples`);
+//} else if (day === "friday") {
+//    console.log(`Record Videos`);
+//} else if (day === "saturday" || day === "sunday") {
+//    console.log(`Enjoy the weekend`);
+//} else {
+//    console.log(`Not a valid day`);
+//}
+
+//if(23 > 30){
+//    const str = "23 is Bigger"
+//}
+//console.log((str));
+
+/*
+const age = 17;
+
+
+//age >= 18 ? console.log(`I like to drink wine`) :
+//    console.log(`You are only allowed to drink non alcoholic beverage`); 
+
+const drink = age >= 18 ? "wine" : 'water';
+console.log(drink);
+
+const drive = age >= 18 ? 'drive' : 'walk';
+console.log(drive);
+
+console.log(`I like to drink ${age >= 18 ? "wine" : 'water'}`);
+
+*/
+
+//const bill = 40;
+
+//const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.20;
+//console.log(tip);
+
+//console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
